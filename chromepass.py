@@ -89,7 +89,7 @@ def getpath():
             '\\Google\\Chrome\\User Data\\Default\\'
     elif os.name == "posix":
         PathName = os.getenv('HOME')
-        if sys.platform == "darwin"
+        if sys.platform == "darwin":
             # This is the OS X Path
             PathName += '/Library/Application Support/Google/Chrome/Default/'
         else:
